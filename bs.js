@@ -6,7 +6,7 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'bid.css';
+    link.href = 'https://rawgit.com/nusad/git/master/bid.css';
     link.media = 'all';
     head.appendChild(link);
 }
