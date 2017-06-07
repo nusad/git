@@ -89,7 +89,7 @@ bottom:0;
 }
 
 .no-touch .scrollable.hover {
-overflow-y:hidden;
+overflow-y:scroll;
 }
 
 .no-touch .scrollable.hover:hover {
