@@ -1,4 +1,4 @@
-var cssId = 'main-menu';  // you could encode the css path itself to generate id..
+var cssId = 'area main-menu';  // you could encode the css path itself to generate id..
 if (!document.getElementById(cssId))
 {
     var head  = document.getElementsByTagName('head')[0];
