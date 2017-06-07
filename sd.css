@@ -21,13 +21,13 @@ overflow:visible;
 }
 
 .main-menu {
-background:transparant;
+background:red;
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
 bottom:0;
 height:100%;
-right:5%;
+right:1%;
 width:60px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
