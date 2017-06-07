@@ -16,7 +16,7 @@ font-size:20px;
 
 
 .main-menu:hover,nav.main-menu.expanded {
-width:250px;
+width:200px;
 overflow:visible;
 }
 
@@ -27,7 +27,7 @@ position:absolute;
 top:0;
 bottom:0;
 height:100%;
-right:0.9%;
+right:0.8%;
 width:60px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
@@ -53,7 +53,7 @@ position:relative;
 display:table;
 border-collapse:collapse;
 border-spacing:0;
-color:#777;
+color:red;
 text-shadow: 0px 1px 0px #ccc;
 font-family: arial;
 font-size: 14px;
