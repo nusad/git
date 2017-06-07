@@ -93,8 +93,8 @@ overflow-y:hidden;
 }
 
 .no-touch .scrollable.hover:hover {
-overflow-y:auto;
-overflow:visible;
+overflow-y:scroll;
+overflow-x:hidden;
 }
 
 a:hover,a:focus {
