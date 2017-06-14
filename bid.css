@@ -82,3 +82,204 @@
       @media(max-width: 600px) {
         #top_bar {font-size: 16px; line-height: 16px;}
 }
+
+
+
+/* More style here */
+
+
+      h1 {
+        padding: 15px;
+        color: red;
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+      }
+     
+      h3 {
+        font-size:12pt;
+        text-align: center;
+      }
+      
+      
+      #container {
+        max-width: 650px;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+        background-color: rgb(252,252,252,.7);
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        box-shadow: 1px 0 5px #1A1A1A;
+        -moz-box-shadow: 1px 0 5px #1A1A1A;
+        -webkit-box-shadow: 1px 0 5px #1A1A1A;
+        position: relative;
+        top: 0;
+        left: 0;
+	text-align: center;
+      }
+      
+      #recommended {
+        display: block;
+        max-width: 600px;
+        width: 80%;
+        border: 4px dashed red;
+        padding: 10px;
+        margin: 0 auto;
+      }
+      
+      .heading {
+        font-size: 42px;
+        font-weight: bold;
+        color: red;
+        padding: 0;
+        margin: 0;
+        text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ccc;
+      }
+      
+      #recommended img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+      
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(pattern.png) repeat top left; 
+}
+      
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(1.jpg) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(4.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(5.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(6.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+      
+      @media(max-width: 480px) {
+        h1 {font-size: 24px;}
+        h3 {font-size: 12px;}
+        .heading {font-size: 32px;}
+      }
+              
+      @media(max-width: 320px) {
+        h1 {font-size: 20px;}
+        h3 {font-size: 12px;}
+        .heading {font-size: 24px;}
+      }
+            
+      @media(max-width: 240px) {
+        h1 {font-size: 16px;}
+        h3 {font-size: 10px;}
+      }
