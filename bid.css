@@ -142,7 +142,8 @@
         max-width: 100%;
         height: auto;
       }
-      
+ }
+
 .cb-slideshow,
 .cb-slideshow:after { 
     position: fixed;
@@ -155,7 +156,7 @@
       
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(pattern.png) repeat top left; 
+    background: transparent url(https://2.bp.blogspot.com/-zk1JbegTxNs/WUHiKu3lR_I/AAAAAAAAAec/GCruo-r5lT0Y9u5MLrCU-h9_FZuuhMF8gCLcBGAs/s1600/pattern.png) repeat top left; 
 }
       
 .cb-slideshow li span { 
@@ -178,10 +179,10 @@
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(1.jpg) 
+    background-image: url(https://1.bp.blogspot.com/-8FlqaSFMss8/WUHg97uYFSI/AAAAAAAAAeI/0hhzW7b3QfkBgAXx1eyYVutdlZGBbXWegCLcBGAs/s1600/1.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(2.jpg);
+    background-image: url(https://1.bp.blogspot.com/-_M-i4kiiLvM/WUHg9sJCEPI/AAAAAAAAAeE/Z_vDcImjA0Qa3-9TO0ifXIdE1GQTD8iQgCLcBGAs/s1600/2.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -189,7 +190,7 @@
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(3.jpg);
+    background-image: url(https://4.bp.blogspot.com/-xt_W-BwVbAw/WUHg9x3GPpI/AAAAAAAAAeA/lsKrs7HKilkbBK7jqJfSgsAK51XSdPQIgCLcBGAs/s1600/3.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -197,7 +198,7 @@
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(4.jpg);
+    background-image: url(https://3.bp.blogspot.com/-3y3Z5vgPIr0/WUHg-vYRmQI/AAAAAAAAAeM/BweQE97mVng_GQChUsmssFNcxWMhrIR4gCLcBGAs/s1600/4.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -205,7 +206,7 @@
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(5.jpg);
+    background-image: url(https://1.bp.blogspot.com/-e8347m-wsEw/WUHg-l-HY4I/AAAAAAAAAeQ/EWEq2cN_lngc_bdH2JR7bmCTmu6FjfoSACLcBGAs/s1600/5.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -213,7 +214,7 @@
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(6.jpg);
+    background-image: url(https://4.bp.blogspot.com/-CFiJdDU5_44/WUHg-2haXpI/AAAAAAAAAeU/QlEOewrJAkgbSCpmEBzly7kUiqnAjt2xwCLcBGAs/s1600/6.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
